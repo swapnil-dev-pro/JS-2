@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+<div class="max-w-[1200px] m-auto">
+<div class="p-5" id="post"></div>
+<textarea placeholder="Your post" class="textarea textarea-accent" id="inputpost"></textarea>
+<br>
+ <button class=" mt-5 mb-11 btn btn-accent" id="postbtn">Add Post</button>
+</div>
+
+<h1 class="text-4xl ml-8" id="dtext">কি খবর সবার?</h1>
+<input id="dinput" class="border-2 ml-8 mt-5 text-center" type="text" placeholder="Type 'Delete' To Delete">
+<button id="dbtn" class="border-2 btn disabled">Delete</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<!-- dinput.addEventListener("keyup",()=>{
+    if (dinput.value=="Delete") {
+        dbtn.removeAttribute("disabled")
+    }
+    else{
+        dbtn.setAttribute("disabled",true)
+    }
+})
+dbtn.addEventListener("click",()=>{
+    dtext.style.display="none";
+    delet.value="";
+}) -->
